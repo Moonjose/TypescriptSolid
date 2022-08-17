@@ -1,6 +1,6 @@
-import { MessagingSend } from './messaging-send';
-import { Persistency } from './persistency';
-import { OrderStatus } from './protocols/order-status';
+import { MessagingSend } from '../services/messaging-send';
+import { Persistency } from '../services/persistency';
+import { OrderStatus } from './interfaces/order-status';
 import { ShoppingCart } from './shopping-cart';
 
 export class Order {
